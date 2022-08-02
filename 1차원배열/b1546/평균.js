@@ -17,6 +17,9 @@ function solution(N, grade) {
         sum += newGrade[i];
     }
     console.log(sum / newGrade.length)
+
+    // ------ 다른 풀이 ---------------
+    // let max = Math.max(...grade)
     // let sum = 0;
     // for (let i = 0; i < N; i++) {
     //     sum += (grade[i] / max * 100)
